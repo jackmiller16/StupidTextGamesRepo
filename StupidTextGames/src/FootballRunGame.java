@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 //Jack Miller
 public class FootballRunGame implements StupidTextGame {
 
