@@ -1,8 +1,12 @@
 import java.util.Random;
-
-public class FootballRunGame {
 //Jack Miller
-	public static void main(String[] args) {
+public class FootballRunGame implements StupidTextGame {
+
+	public String getName() {
+		return "Football Run Game";
+	}
+	
+	public void play(Scanner console){
 		Random rand = new Random();
 		int run = rand.nextInt(3)+1;
 		if(run == 1) {
